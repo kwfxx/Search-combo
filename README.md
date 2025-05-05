@@ -50,32 +50,10 @@ def more_page(params, pag, ran):
             usernames = [user['username'] for user in TnT.get('users', [])]          
             for username in usernames:
                 if username not in AllEmail:
-                	pas= [
-                  "123456",
-    "12345@@",
-     username,
-    "qwerqwer",
-    "Aa1234",
-    "00998877",
-    "qqwweerr",
-    "1q2w3e4r",
-    "1234567",
-    "12345678",
-    "098765",
-    "qwertyuiop",
-    "11223344",
-    "1122334455",
-    "qwer1234",
-    "password",
-    "mmnnbbvv",
-    "ppooiiuu",
-    "12345a",
-    "123456789"
-]
 
   
                     
-                	pasw= random.choice(pas)
+                	pasw= username
                 	print(username+'/'+pasw)
 
                 	
@@ -132,32 +110,10 @@ def search():
               
             for username in usernames:
                 if username not in AllEmail:
-                	pas= [
-                  "123456",
-    "12345@@",
-     username,
-    "qwerqwer",
-    "Aa1234",
-    "00998877",
-    "qqwweerr",
-    "1q2w3e4r",
-    "1234567",
-    "12345678",
-    "098765",
-    "qwertyuiop",
-    "11223344",
-    "1122334455",
-    "qwer1234",
-    "password",
-    "mmnnbbvv",
-    "ppooiiuu",
-    "12345a",
-    "123456789"
-]
 
   
                     
-                	pasw= random.choice(pas)
+                	pasw= username
                 	print(username+'/'+pasw)
 
                 	
